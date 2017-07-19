@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\yii_test\shop\yii_shop.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/yii_test/shop/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/yii_test/shop/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.11">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\yii_test\shop\themes\classic\views\.htaccess" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\user\register.php" crc="1499159140"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\user\login.php" crc="1499158355"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\site\pages\about.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\site\login.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\site\index.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\site\error.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\site\contact.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\layouts\main.php" crc="1499159614"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\layouts\column2.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\layouts\column1.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\index\index.php" crc="1499159258"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\goods\detail.php" crc="1499159468"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\views\goods\category.php" crc="1499159398"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\tests\functional\SiteTest.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\tests\WebTestCase.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\tests\phpunit.xml" crc="1499154966"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\tests\bootstrap.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\runtime\gii-1.1.19\ModuleCode.php" crc="1499672340"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\right.php" crc="1499672856"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\left.php" crc="1499672848"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\index.php" crc="1499677484"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\head.php" crc="1499679568"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\default\index.php" crc="1499672340"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php" crc="1499673640"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\DefaultController.php" crc="1499672340"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\HoutaiModule.php" crc="1499672340"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\models\LoginForm.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\models\Goods.php" crc="1499679540"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\models\ContactForm.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\data\schema.sqlite.sql" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\data\schema.mysql.sql" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php" crc="1499159107"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php" crc="1499301962"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php" crc="1499244347"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\controllers\IndexController.php" crc="1499159228"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\controllers\GoodsController.php" crc="1499246478"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\config\test.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\config\main.php" crc="1499679498"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\config\database.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\config\constant.php" crc="1499673599"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\config\console.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\components\UserIdentity.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\components\Controller.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\yiic.php" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\protected\.htaccess" crc="1498726162"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\nbproject\private\private.xml" crc="1499157487"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\nbproject\project.xml" crc="1499157190"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\css\screen.css" crc="1498726161"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\css\print.css" crc="1498726161"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\css\main.css" crc="1498726161"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\css\ie.css" crc="1498726161"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\css\form.css" crc="1498726161"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\houtai\css\User_Login.css" crc="1368018596"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\houtai\css\mine.css" crc="1368018596"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\houtai\css\admin.css" crc="1368018596"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\utils.js" crc="1499158870"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\user.htm" crc="1499159053"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\transport.js" crc="1499158870"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\style.css" crc="1499158870"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\qq.css" crc="1499158869"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\pa.htm" crc="1499158869"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\online.htm" crc="1499158869"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\index.js" crc="1499158869"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\index.htm" crc="1499159041"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\goods.htm" crc="1499159025"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\flow.htm" crc="1499158987"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\ecshop_logo.htm" crc="1499158869"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\controlbar.htm" crc="1499158869"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\category.htm" crc="1499158974"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\img\a.htm" crc="1499158907"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\default\css\style.css" crc="1499158854"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\js\fancybox\jquery.fancybox-1.3.1.pack.js" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\js\fancybox\jquery.fancybox-1.3.1.css" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\js\tooltip.js" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\js\main.js" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\css\screen.css" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\css\print.css" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\css\main.css" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\52186a6\css\ie.css" crc="1499672307"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\yiitab\jquery.yiitab.css" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\treeview\jquery.treeview.css" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\rating\jquery.rating.css" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jui\js\jquery-ui.min.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jui\js\jquery-ui-i18n.min.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jui\css\base\jquery-ui.css" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\autocomplete\jquery.autocomplete.css" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\punycode.min.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\punycode.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.yiitab.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.yiiactiveform.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.yii.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.treeview.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.treeview.edit.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.treeview.async.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.rating.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.multifile.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.min.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.metadata.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.maskedinput.min.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.maskedinput.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.history.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.cookie.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.bgiframe.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.ba-bbq.min.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.ba-bbq.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.autocomplete.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\assets\29b1f6aa\jquery.ajaxqueue.js" crc="1499156499"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\index.php" crc="1499158696"/>
+		<file name="C:\xampp\htdocs\yii_test\shop\index-test.php" crc="1498726161"/>
+	</filescache>
+</project>

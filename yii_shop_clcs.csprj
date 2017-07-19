@@ -1,0 +1,114 @@
+<codestructure version="5.13">
+<phptree>
+<treenode node="CSS_URL;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\protected\config\constant.php;f9;1;16;1;;;;vpos;;v;;r&quot;/assets/default/css/&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HOUTAI_CSS_URL;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\protected\config\constant.php;f8;3;22;3;;;;vpos;;v;;r&quot;./assets/houtai/css/&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HOUTAI_IMG_URL;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\protected\config\constant.php;f8;4;22;4;;;;vpos;;v;;r&quot;./assets/houtai/img/&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="IMG_URL;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\protected\config\constant.php;f9;2;16;2;;;;vpos;;v;;r&quot;/assets/default/img/&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="protected/config/constant.php;PHP:PHP Include;C:\xampp\htdocs\yii_test\shop\index.php;f14;10;43;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TEST_BASE_URL;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\protected\tests\WebTestCase.php;f8;6;21;6;;;;vpos;;v;;r&#10;Description&#10;     Change the following URL based on your server configuration Make sure the URL ends with a slash so that we can use relative URLs in test cases;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="YII_DEBUG;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\index.php;f32;7;41;7;;C:\xampp\htdocs\yii_test\shop\index-test.php;f32;11;41;11;;;;vpos;;v;;rtrue;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="YII_TRACE_LEVEL;PHP:PHP Word;C:\xampp\htdocs\yii_test\shop\index.php;f38;9;53;9;;;;vpos;;v;;r3;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ContactForm;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\models\ContactForm.php;f0;7;1;41;;;;vpos;;vCFormModel;;c;;r&#10;Definition&#10;    class ContactForm extends CFormModel&#10;&#10;Description&#10;     ContactForm class. ContactForm is the data structure for keeping contact form data. It is used by the &apos;contact&apos; action of &apos;SiteController&apos;.;;d0,8;;b0,0;;m">
+<treenode node="attributeLabels;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\ContactForm.php;f8;35;2;40;;;;vpos;;v;;r&#10;Definition&#10;    attributeLabels()&#10;&#10;Description&#10;     Declares customized attribute labels. If not declared here, an attribute would have a label that is the same as its name with the first letter in upper case.;;d1,36;;b1,0;;m">
+</treenode>
+<treenode node="rules;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\ContactForm.php;f8;18;2;28;;;;vpos;;v;;r&#10;Definition&#10;    rules()&#10;&#10;Description&#10;     Declares the validation rules.;;d1,19;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="Controller;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\components\Controller.php;f0;5;1;22;;;;vpos;;vCController;;c;;r&#10;Definition&#10;    class Controller extends CController&#10;&#10;Description&#10;     Controller is the customized base controller class. All controller classes for this application should extend from this base class.;;d0,6;;b0,0;;m">
+</treenode>
+<treenode node="DefaultController;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\DefaultController.php;f0;2;1;8;;;;vpos;;vController;;c;;r;;d0,3;;b0,0;;m">
+<treenode node="actionIndex;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\DefaultController.php;f8;4;2;7;;;;vpos;;v;;r;;d1,5;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="Goods;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\models\Goods.php;f0;8;1;18;;;;vpos;;vCActiveRecord;;c;;r;;d33,8;;b0,0;;m">
+<treenode node="model;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\Goods.php;f15;10;2;12;;;;vpos;;v;;r;;d51,10;;b1,5;;mclassName;;p">
+</treenode>
+<treenode node="tableName;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\Goods.php;f8;15;2;17;;;;vpos;;v;;r;;d28,15;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="GoodsController;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\GoodsController.php;f1;1;5;14;;;;vpos;;vController;;c;;r;;d41,1;;b0,0;;m">
+<treenode node="actionCategory;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\GoodsController.php;f2;2;3;4;;;;vpos;;v;;r;;d27,2;;b0,0;;m">
+</treenode>
+<treenode node="actionDetail;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\GoodsController.php;f2;5;3;7;;;;vpos;;v;;r;;d25,5;;b0,0;;m">
+</treenode>
+<treenode node="actionTest;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\GoodsController.php;f2;8;3;10;;;;vpos;;v;;r;;d23,8;;b0,0;;m">
+</treenode>
+<treenode node="test;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\GoodsController.php;f8;11;9;13;;;;vpos;;v;;r;;d23,11;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="HoutaiModule;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\HoutaiModule.php;f0;2;1;27;;;;vpos;;vCWebModule;;c;;r;;d0,3;;b0,0;;m">
+<treenode node="beforeControllerAction;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\HoutaiModule.php;f8;16;2;26;;;;vpos;;v;;r;;d1,17;;b1,0;;mcontroller;;paction;;p">
+</treenode>
+<treenode node="init;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\HoutaiModule.php;f8;4;2;14;;;;vpos;;v;;r;;d1,5;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="IndexController;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php;f1;1;2;14;;C:\xampp\htdocs\yii_test\shop\protected\controllers\IndexController.php;f0;1;1;5;;;;vpos;;vController;;c;;r;;d41,1;;b0,0;;m">
+<treenode node="actionHead;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php;f2;2;3;4;;;;vpos;;v;;r;;d23,2;;b0,0;;m">
+</treenode>
+<treenode node="actionIndex;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php;f2;11;3;13;;C:\xampp\htdocs\yii_test\shop\protected\controllers\IndexController.php;f1;2;2;4;;;;vpos;;v;;r;;d24,11;;b0,0;;m">
+</treenode>
+<treenode node="actionLeft;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php;f2;5;3;7;;;;vpos;;v;;r;;d23,5;;b0,0;;m">
+</treenode>
+<treenode node="actionRight;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php;f2;8;3;10;;;;vpos;;v;;r;;d24,8;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="LayoutsController;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php;f1;1;2;6;;;;vpos;;vController;;c;;r;;d43,1;;b0,0;;m">
+<treenode node="actionColumn1;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php;f2;3;3;5;;;;vpos;;v;;r;;d26,3;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="LoginForm;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\models\LoginForm.php;f0;7;1;78;;;;vpos;;vCFormModel;;c;;r&#10;Definition&#10;    class LoginForm extends CFormModel&#10;&#10;Description&#10;     LoginForm class. LoginForm is the data structure for keeping user login form data. It is used by the &apos;login&apos; action of &apos;SiteController&apos;.;;d0,8;;b0,0;;m">
+<treenode node="attributeLabels;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\LoginForm.php;f8;35;2;40;;;;vpos;;v;;r&#10;Definition&#10;    attributeLabels()&#10;&#10;Description&#10;     Declares attribute labels.;;d1,36;;b1,0;;m">
+</treenode>
+<treenode node="authenticate;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\LoginForm.php;f8;48;2;56;;;;vpos;;v;;r&#10;Definition&#10;    authenticate($attribute,$params)&#10;&#10;Description&#10;     Authenticates the password. This is the &apos;authenticate&apos; validator as declared in rules().&#10;&#10;Parameters:&#10;    string $attribute - the name of the attribute to be validated&#10;    array $params - additional parameters passed with rule when being executed;;d1,49;;b1,0;;mstring $attribute;;parray $params;;p">
+</treenode>
+<treenode node="login;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\LoginForm.php;f8;62;2;77;;;;vpos;;vboolean;;r&#10;Definition&#10;    login()&#10;&#10;Description&#10;     Logs in the user using the given username and password in the model.&#10;&#10;Return:&#10;   whether login is successful;;d1,63;;b1,0;;m">
+</treenode>
+<treenode node="rules;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\models\LoginForm.php;f8;20;2;30;;;;vpos;;v;;r&#10;Definition&#10;    rules()&#10;&#10;Description&#10;     Declares the validation rules. The rules state that username and password are required, and password needs to be authenticated.;;d1,21;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="SiteController;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f0;2;1;108;;;;vpos;;vController;;c;;r;;d0,3;;b0,0;;m">
+<treenode node="actionContact;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f8;51;2;72;;;;vpos;;v;;r&#10;Definition&#10;    actionContact()&#10;&#10;Description&#10;     Displays the contact page;;d1,52;;b1,0;;m">
+</treenode>
+<treenode node="actionError;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f8;37;2;46;;;;vpos;;v;;r&#10;Definition&#10;    actionError()&#10;&#10;Description&#10;     This is the action to handle external exceptions.;;d1,38;;b1,0;;m">
+</treenode>
+<treenode node="actionIndex;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f8;27;2;32;;;;vpos;;v;;r&#10;Definition&#10;    actionIndex()&#10;&#10;Description&#10;     This is the default &apos;index&apos; action that is invoked when an action is not explicitly requested by users.;;d1,28;;b1,0;;m">
+</treenode>
+<treenode node="actionLogin;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f8;77;2;98;;;;vpos;;v;;r&#10;Definition&#10;    actionLogin()&#10;&#10;Description&#10;     Displays the login page;;d1,78;;b1,0;;m">
+</treenode>
+<treenode node="actionLogout;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f8;103;2;107;;;;vpos;;v;;r&#10;Definition&#10;    actionLogout()&#10;&#10;Description&#10;     Logs out the current user and redirect to homepage.;;d1,104;;b1,0;;m">
+</treenode>
+<treenode node="actions;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\SiteController.php;f8;7;2;21;;;;vpos;;v;;r&#10;Definition&#10;    actions()&#10;&#10;Description&#10;     Declares class-based actions.;;d1,8;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="SiteTest;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\tests\functional\SiteTest.php;f0;2;1;46;;;;vpos;;vWebTestCase;;c;;r;;d0,3;;b0,0;;m">
+<treenode node="testContact;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\tests\functional\SiteTest.php;f8;10;2;21;;;;vpos;;v;;r;;d1,11;;b1,0;;m">
+</treenode>
+<treenode node="testIndex;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\tests\functional\SiteTest.php;f8;4;2;8;;;;vpos;;v;;r;;d1,5;;b1,0;;m">
+</treenode>
+<treenode node="testLoginLogout;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\tests\functional\SiteTest.php;f8;23;2;45;;;;vpos;;v;;r;;d1,24;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="UserController;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php;f1;1;2;9;;;;vpos;;vController;;c;;r;;d40,1;;b0,0;;m">
+<treenode node="actionLogin;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php;f2;2;3;4;;;;vpos;;v;;r;;d24,2;;b0,0;;m">
+</treenode>
+<treenode node="actionRegister;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php;f2;6;3;8;;;;vpos;;v;;r;;d27,6;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="UserIdentity;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\components\UserIdentity.php;f0;7;1;32;;;;vpos;;vCUserIdentity;;c;;r&#10;Definition&#10;    class UserIdentity extends CUserIdentity&#10;&#10;Description&#10;     UserIdentity represents the data needed to identity a user. It contains the authentication method that checks if the provided data can identity the user.;;d0,8;;b0,0;;m">
+<treenode node="authenticate;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\components\UserIdentity.php;f8;17;2;31;;;;vpos;;vboolean;;r&#10;Definition&#10;    authenticate()&#10;&#10;Description&#10;     Authenticates a user. The example implementation makes sure if the username and password are both &apos;demo&apos;. In practical applications, this should be changed to authenticate against some persistent user identity storage (e.g. database).&#10;&#10;Return:&#10;   whether authentication succeeds;;d1,18;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="WebTestCase;PHP:Class Name;C:\xampp\htdocs\yii_test\shop\protected\tests\WebTestCase.php;f0;13;1;24;;;;vpos;;vCWebTestCase;;c;;r&#10;Definition&#10;    class WebTestCase extends CWebTestCase&#10;&#10;Description&#10;     The base class for functional test cases. In this class, we set the base URL for the test application. We also provide some common methods to be used by concrete test classes.;;d0,14;;b0,0;;m">
+<treenode node="setUp;PHP:Function Name;C:\xampp\htdocs\yii_test\shop\protected\tests\WebTestCase.php;f11;19;2;23;;;;vpos;;v;;r&#10;Definition&#10;    setUp()&#10;&#10;Description&#10;     Sets up before each test method runs. This mainly sets the base URL for the test application.;;d1,20;;b2,0;;m">
+</treenode>
+</treenode>
+</phptree>
+</codestructure>

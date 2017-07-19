@@ -223,6 +223,7 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/index
 ---
+<<<<<<< HEAD
 2017/07/10 15:53:11 [error] [exception.CException] exception 'CException' with message 'GoodsController cannot find the requested view "show".' in C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php:881
 Stack trace:
 #0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(5): CController->renderPartial('show')
@@ -728,3 +729,5 @@ REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/update&id=1
 in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\update.php (26)
 in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (60)
 in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+=======
+>>>>>>> 9103e95703c98cea357a50896e91f83f79e42d66
