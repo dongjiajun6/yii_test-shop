@@ -1,0 +1,730 @@
+2017/07/04 10:50:56 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "renderPartical".' in C:\xampp\htdocs\yii_test\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php(4): CComponent->__call('renderPartical', Array)
+#1 C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php(4): UserController->renderPartical('login')
+#2 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2017/07/04 10:52:39 [error] [php] Use of undefined constant CSS_URL - assumed 'CSS_URL' (C:\xampp\htdocs\yii_test\shop\protected\views\user\login.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(872): UserController->renderFile()
+#1 C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php(4): UserController->renderPartial()
+#2 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): UserController->runAction()
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): UserController->runActionWithFilters()
+#6 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): UserController->run()
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/login
+in C:\xampp\htdocs\yii_test\shop\protected\views\user\login.php (11)
+in C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php (4)
+in C:\xampp\htdocs\yii_test\shop\index.php (13)
+2017/07/04 10:58:18 [error] [php] Use of undefined constant IMG_URL - assumed 'IMG_URL' (C:\xampp\htdocs\yii_test\shop\protected\views\user\login.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(872): UserController->renderFile()
+#1 C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php(4): UserController->renderPartial()
+#2 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): UserController->runAction()
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): UserController->runActionWithFilters()
+#6 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): UserController->run()
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/login
+in C:\xampp\htdocs\yii_test\shop\protected\views\user\login.php (17)
+in C:\xampp\htdocs\yii_test\shop\protected\controllers\UserController.php (4)
+in C:\xampp\htdocs\yii_test\shop\index.php (13)
+2017/07/04 11:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layout/main".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('layout/main')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layout/main
+---
+2017/07/04 11:12:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/main".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/main')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layouts/main
+---
+2017/07/04 11:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/main".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/main')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layouts/main
+---
+2017/07/04 11:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/main".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/main')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layouts/main
+---
+2017/07/04 11:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/column1".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/column1')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layouts/column1
+---
+2017/07/04 11:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/test".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/test')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=layouts/test
+---
+2017/07/04 11:16:10 [error] [php] Undefined variable: content (C:\xampp\htdocs\yii_test\shop\protected\views\layouts\main.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(872): LayoutsController->renderFile()
+#1 C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php(4): LayoutsController->renderPartial()
+#2 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): LayoutsController->actionMain()
+#3 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): LayoutsController->runAction()
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): LayoutsController->runActionWithFilters()
+#6 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): LayoutsController->run()
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=layouts/main
+in C:\xampp\htdocs\yii_test\shop\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php (4)
+in C:\xampp\htdocs\yii_test\shop\index.php (13)
+2017/07/04 11:16:51 [error] [php] Undefined variable: content (C:\xampp\htdocs\yii_test\shop\protected\views\layouts\column1.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(872): LayoutsController->renderFile()
+#1 C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php(7): LayoutsController->renderPartial()
+#2 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): LayoutsController->actionColumn1()
+#3 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): LayoutsController->runAction()
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): LayoutsController->runActionWithFilters()
+#6 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): LayoutsController->run()
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=layouts/column1
+in C:\xampp\htdocs\yii_test\shop\protected\views\layouts\column1.php (4)
+in C:\xampp\htdocs\yii_test\shop\protected\controllers\LayoutsController.php (7)
+in C:\xampp\htdocs\yii_test\shop\index.php (13)
+2017/07/10 09:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "houtai".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai
+---
+2017/07/10 09:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "houtai".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai
+---
+2017/07/10 09:47:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "houtai/left/left".' in C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/left/lef...')
+#1 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/left/left
+---
+2017/07/10 09:48:07 [error] [php] Use of undefined constant HOUTAI_CSS_URL - assumed 'HOUTAI_CSS_URL' (C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\left.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(872): IndexController->renderFile()
+#1 C:\xampp\htdocs\yii_test\framework\web\CController.php(785): IndexController->renderPartial()
+#2 C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php(7): IndexController->render()
+#3 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): IndexController->actionLeft()
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): IndexController->runAction()
+#6 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): IndexController->run()
+#8 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/left
+in C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\left.php (5)
+in C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php (7)
+in C:\xampp\htdocs\yii_test\shop\index.php (13)
+2017/07/10 09:49:39 [error] [php] Use of undefined constant HOUTAI_CSS_URL - assumed 'HOUTAI_CSS_URL' (C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\left.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(872): IndexController->renderFile()
+#1 C:\xampp\htdocs\yii_test\framework\web\CController.php(785): IndexController->renderPartial()
+#2 C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php(7): IndexController->render()
+#3 C:\xampp\htdocs\yii_test\framework\web\actions\CInlineAction.php(49): IndexController->actionLeft()
+#4 C:\xampp\htdocs\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii_test\framework\web\CController.php(286): IndexController->runAction()
+#6 C:\xampp\htdocs\yii_test\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): IndexController->run()
+#8 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/left
+in C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\views\index\left.php (5)
+in C:\xampp\htdocs\yii_test\shop\protected\modules\houtai\controllers\IndexController.php (7)
+in C:\xampp\htdocs\yii_test\shop\index.php (13)
+2017/07/10 09:53:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right".' in C:\xampp\htdocs\yii_test\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(270): CController->missingAction('right')
+#1 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): CController->run('right')
+#2 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/right
+---
+2017/07/10 09:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right".' in C:\xampp\htdocs\yii_test\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(270): CController->missingAction('right')
+#1 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): CController->run('right')
+#2 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/right
+---
+2017/07/10 09:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right".' in C:\xampp\htdocs\yii_test\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(270): CController->missingAction('right')
+#1 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): CController->run('right')
+#2 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/right
+---
+2017/07/10 09:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii_test\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii_test\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\xampp\htdocs\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/in...')
+#3 C:\xampp\htdocs\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_test\shop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/index/index
+---
+2017/07/10 15:53:11 [error] [exception.CException] exception 'CException' with message 'GoodsController cannot find the requested view "show".' in C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php:881
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(5): CController->renderPartial('show')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/10 15:55:06 [error] [php] Undefined variable: goods_infos (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\show.php:51)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->renderPartial()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\show.php (51)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (5)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/10 15:56:09 [error] [exception.CException] exception 'CException' with message 'GoodsController cannot find the requested view "login".' in C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php:881
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(9): CController->renderPartial('login')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+---
+2017/07/10 16:05:08 [error] [exception.CException] exception 'CException' with message 'GoodsController cannot find the requested view "login".' in C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php:881
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(19): CController->renderPartial('login')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+---
+2017/07/10 16:05:09 [error] [exception.CException] exception 'CException' with message 'GoodsController cannot find the requested view "login".' in C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php:881
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(19): CController->renderPartial('login')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+---
+2017/07/10 16:05:13 [error] [php] include(Goods.php): failed to open stream: No such file or directory (C:\Users\dong\Desktop\host\yii_test\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(7): spl_autoload_call()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (7)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/10 16:19:14 [error] [php] include(Goods.php): failed to open stream: No such file or directory (C:\Users\dong\Desktop\host\yii_test\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(7): spl_autoload_call()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (7)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/10 16:20:40 [error] [php] include(Goods.php): failed to open stream: No such file or directory (C:\Users\dong\Desktop\host\yii_test\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(7): spl_autoload_call()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (7)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/10 16:20:42 [error] [php] include(Goods.php): failed to open stream: No such file or directory (C:\Users\dong\Desktop\host\yii_test\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(7): spl_autoload_call()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (7)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/10 16:21:11 [error] [php] Missing argument 1 for Goods::model(), called in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php on line 7 and defined (C:\Users\dong\Desktop\host\yii_test\shop\protected\models\Goods.php:8)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\models\Goods.php (8)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (7)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/10 16:23:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{goods}}" for active record class "Goods" cannot be found in the database.' in C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Goods))
+#1 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1358): CActiveRecord->getTableSchema()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(10): CActiveRecord->find()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/10 16:24:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{goods}}" for active record class "Goods" cannot be found in the database.' in C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Goods))
+#1 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1358): CActiveRecord->getTableSchema()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(10): CActiveRecord->find()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/11 14:45:40 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{goods}}" for active record class "Goods" cannot be found in the database.' in C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Goods))
+#1 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1358): CActiveRecord->getTableSchema()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(10): CActiveRecord->find()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/11 15:52:55 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{goods}}" for active record class "Goods" cannot be found in the database.' in C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Goods))
+#1 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1358): CActiveRecord->getTableSchema()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(10): CActiveRecord->find()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/11 16:38:27 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.enableParamLoggin" is not defined.' in C:\Users\dong\Desktop\host\yii_test\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\YiiBase.php(220): CComponent->__set('enableParamLogg...', true)
+#1 C:\Users\dong\Desktop\host\yii_test\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(459): CModule->getComponent('db')
+#3 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1463): CActiveRecord->getCommandBuilder()
+#6 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(10): CActiveRecord->find()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#12 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#13 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/11 16:49:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'yii_test'@'localhost' (using password: NO)' in C:\Users\dong\Desktop\host\yii_test\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\dong\Desktop\host\yii_test\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1463): CActiveRecord->getCommandBuilder()
+#7 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(10): CActiveRecord->find()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#13 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#14 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/12 16:29:09 [error] [php] Undefined variable: goods_infos (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\show.php:48)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(15): GoodsController->renderPartial()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\show.php (48)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (15)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 15:17:51 [error] [php] Undefined variable: goods_modle (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php:30)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (30)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 15:18:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{goods} limit 10' at line 1. The SQL statement executed was: select * from {{goods} limit 10.
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (30)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 15:18:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{goods} limit 10' at line 1. The SQL statement executed was: select * from {{goods} limit 10' in C:\Users\dong\Desktop\host\yii_test\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(1589): CDbCommand->queryAll()
+#2 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(30): CActiveRecord->findAllBySql('select * from {...')
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionShow()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('show')
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/sh...')
+#9 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/13 15:48:21 [error] [exception.CException] exception 'CException' with message 'GoodsController cannot find the requested view "login".' in C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php:881
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(35): CController->renderPartial('login')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+HTTP_REFERER=http://host/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/13 15:53:45 [error] [exception.CException] exception 'CException' with message 'Property "GoodsController.endnWidget" is not defined.' in C:\Users\dong\Desktop\host\yii_test\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php(71): CComponent->__get('endnWidget')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(126): require('C:\\Users\\dong\\D...')
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Users\\dong\\D...', NULL, true)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): CBaseController->renderFile('C:\\Users\\dong\\D...', NULL, true)
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(35): CController->renderPartial('add')
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+HTTP_REFERER=http://host/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/13 15:53:54 [error] [exception.CException] exception 'CException' with message 'Property "GoodsController.endWidget" is not defined.' in C:\Users\dong\Desktop\host\yii_test\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php(71): CComponent->__get('endWidget')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(126): require('C:\\Users\\dong\\D...')
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Users\\dong\\D...', NULL, true)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): CBaseController->renderFile('C:\\Users\\dong\\D...', NULL, true)
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(35): CController->renderPartial('add')
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+HTTP_REFERER=http://host/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/13 15:54:01 [error] [exception.CException] exception 'CException' with message 'Property "GoodsController.endwidget" is not defined.' in C:\Users\dong\Desktop\host\yii_test\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php(71): CComponent->__get('endwidget')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(126): require('C:\\Users\\dong\\D...')
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Users\\dong\\D...', NULL, true)
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): CBaseController->renderFile('C:\\Users\\dong\\D...', NULL, true)
+#4 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(35): CController->renderPartial('add')
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#11 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+HTTP_REFERER=http://host/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/13 16:00:54 [error] [php] Undefined variable: goods_model (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php:28)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(36): GoodsController->renderPartial()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php (28)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (36)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 16:01:37 [error] [php] Undefined variable: goods_model (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php:28)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(36): GoodsController->renderPartial()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php (28)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (36)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 16:01:39 [error] [php] Undefined variable: goods_model (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php:28)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(36): GoodsController->renderPartial()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php (28)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (36)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 16:02:18 [error] [php] Undefined variable: goods_model (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php:28)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(36): GoodsController->renderPartial()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php (28)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (36)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/13 16:18:22 [error] [exception.CException] exception 'CException' with message 'Property "Goods.goods_brand" is not defined.' in C:\Users\dong\Desktop\host\yii_test\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\db\ar\CActiveRecord.php(145): CComponent->__get('goods_brand')
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\helpers\CHtml.php(2747): CActiveRecord->__get('goods_brand')
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\helpers\CHtml.php(2470): CHtml::resolveValue(Object(Goods), 'goods_brand')
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Goods), 'goods_brand', Array)
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Goods), 'goods_brand', Array)
+#5 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\add.php(74): CActiveForm->textField(Object(Goods), 'goods_brand')
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(126): require('C:\\Users\\dong\\D...')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Users\\dong\\D...', Array, true)
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): CBaseController->renderFile('C:\\Users\\dong\\D...', Array, true)
+#9 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(36): CController->renderPartial('add', Array)
+#10 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#11 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#16 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+HTTP_REFERER=http://host/yii_test/shop/index.php?r=houtai/goods/show
+---
+2017/07/17 15:15:14 [error] [php] Undefined index: goods_name (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php:37)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#1 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (37)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)
+2017/07/17 15:16:47 [error] [exception.CException] exception 'CException' with message 'GoodsController and its behaviors do not have a method or closure named "redict".' in C:\Users\dong\Desktop\host\yii_test\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(40): CComponent->__call('redict', Array)
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(40): GoodsController->redict('index.php?r=hou...')
+#2 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(49): GoodsController->actionAdd()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): CController->run('add')
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#8 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/add
+HTTP_REFERER=http://host/yii_test/shop/index.php?r=houtai/goods/add
+---
+2017/07/17 16:17:26 [error] [php] Undefined variable: goods_model (C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\update.php:26)
+Stack trace:
+#0 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(872): GoodsController->renderFile()
+#1 C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php(60): GoodsController->renderPartial()
+#2 unknown(0): GoodsController->actionUpdate()
+#3 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#4 C:\Users\dong\Desktop\host\yii_test\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#5 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(286): GoodsController->runAction()
+#7 C:\Users\dong\Desktop\host\yii_test\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#8 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(282): GoodsController->run()
+#9 C:\Users\dong\Desktop\host\yii_test\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Users\dong\Desktop\host\yii_test\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\Users\dong\Desktop\host\yii_test\shop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_test/shop/index.php?r=houtai/goods/update&id=1
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\views\goods\update.php (26)
+in C:\Users\dong\Desktop\host\yii_test\shop\protected\modules\houtai\controllers\GoodsController.php (60)
+in C:\Users\dong\Desktop\host\yii_test\shop\index.php (13)

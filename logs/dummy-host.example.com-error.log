@@ -1,0 +1,2 @@
+[Tue Jul 04 16:07:08.722967 2017] [:error] [pid 7748:tid 1600] [client ::1:57855] script 'C:/xampp/htdocs/yii_test/shop/admin.php' not found or unable to stat
+[Tue Jul 04 16:50:41.155467 2017] [:error] [pid 1140:tid 1624] [client 127.0.0.1:58796] PHP Parse error:  syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\\xampp\\htdocs\\yii_test\\shop\\protected\\controllers\\UserController.php on line 5
