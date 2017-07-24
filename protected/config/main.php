@@ -52,21 +52,13 @@ return array(
 		// database settings are configured in database.php
 		// 'db'=>require(dirname(__FILE__).'/database.php'),
 		'db'=>array(
-<<<<<<< HEAD
 			'connectionString'=>'mysql:host=localhost;dbname=yii_test',
 				'emulatePrepare'=>true,
 				'username'=>'yii_test',
 				'password'=>'djj123456',
 				'tablePrefix'=>'sw_',
+				'charset'=>'utf8',
 				'enableParamLogging'=>true,
-=======
-			'connectionString'=>'mysql:host=localhost;bdname=yii_test',
-			'emulatePrepare'=>true,
-			'username'=>'yii_test',
-			'password'=>'djj123456',
-			'charset'=>'utf8',
-			'tablePrefix'=>'sw_',// 设置数据表的前缀
->>>>>>> 9103e95703c98cea357a50896e91f83f79e42d66
 		),
 
 		'errorHandler'=>array(
@@ -82,19 +74,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-<<<<<<< HEAD
 				
 				array(
 					'class'=>'CWebLogRoute',
 				),
 				
-=======
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
->>>>>>> 9103e95703c98cea357a50896e91f83f79e42d66
 			),
 		),
 
